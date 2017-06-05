@@ -1,0 +1,1617 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'vcap_services',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData vcap_services
+8 silly fetchNamedPackageData vcap_services
+9 silly mapToRegistry name vcap_services
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'vcap_services',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'vcap_services',
+12 silly mapToRegistry   name: 'vcap_services',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/vcap_services
+14 verbose request uri https://registry.npmjs.org/vcap_services
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:28:37 AM
+17 verbose request id 6bb2d5556070acc1
+18 http request GET https://registry.npmjs.org/vcap_services
+19 http 200 https://registry.npmjs.org/vcap_services
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Thu, 13 Apr 2017 16:49:27 GMT',
+20 verbose headers   etag: 'W/"58efac17-4dcf"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '2764',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sun, 04 Jun 2017 16:28:37 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1496593718.647285,VS0,VE19',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Thu, 13 Apr 2017 16:49:27 GMT',
+21 silly get     etag: 'W/"58efac17-4dcf"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '2764',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sun, 04 Jun 2017 16:28:37 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ord1734-ORD',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1496593718.647285,VS0,VE19',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving vcap_services to C:\Users\aagam_000\AppData\Roaming\npm-cache\registry.npmjs.org\vcap_services\.cache.json
+23 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule vcap_services@0.3.4 checking installable status
+37 silly cache add args [ 'vcap_services', null ]
+38 verbose cache add spec vcap_services
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'vcap_services',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'vcap_services',
+39 silly cache add   name: 'vcap_services',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed vcap_services@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for vcap_services
+42 info addNameTag [ 'vcap_services', 'latest' ]
+43 silly mapToRegistry name vcap_services
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'vcap_services',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'vcap_services',
+46 silly mapToRegistry   name: 'vcap_services',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/vcap_services
+48 verbose addNameTag registry:https://registry.npmjs.org/vcap_services not in flight; fetching
+49 verbose get https://registry.npmjs.org/vcap_services not expired, no request
+50 silly addNameTag next cb for vcap_services with tag latest
+51 silly addNamed vcap_services@0.3.4
+52 verbose addNamed "0.3.4" is a plain semver version for vcap_services
+53 silly mapToRegistry name vcap_services
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'vcap_services',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'vcap_services',
+56 silly mapToRegistry   name: 'vcap_services',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/vcap_services
+58 verbose addRemoteTarball https://registry.npmjs.org/vcap_services/-/vcap_services-0.3.4.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/vcap_services/-/vcap_services-0.3.4.tgz',
+59 verbose addRemoteTarball   '154bf940402512acca23df2263fc60ef66845ada' ]
+60 info retry fetch attempt 1 at 11:28:37 AM
+61 info attempt registry request try #1 at 11:28:37 AM
+62 http fetch GET https://registry.npmjs.org/vcap_services/-/vcap_services-0.3.4.tgz
+63 http fetch 200 https://registry.npmjs.org/vcap_services/-/vcap_services-0.3.4.tgz
+64 silly fetchAndShaCheck shasum 154bf940402512acca23df2263fc60ef66845ada
+65 verbose addTmpTarball C:\Users\AAGAM_~1\AppData\Local\Temp\npm-10260-6ccfc6ea\registry.npmjs.org\vcap_services\-\vcap_services-0.3.4.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for vcap_services@0.3.4
+67 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd vcap_services@0.3.4
+69 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\vcap_services\0.3.4\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\vcap_services\0.3.4\package\package.json written
+72 silly fetchNamedPackageData bufferutil
+73 silly mapToRegistry name bufferutil
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bufferutil',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bufferutil',
+76 silly mapToRegistry   name: 'bufferutil',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+78 silly fetchNamedPackageData utf-8-validate
+79 silly mapToRegistry name utf-8-validate
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'utf-8-validate',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'utf-8-validate',
+82 silly mapToRegistry   name: 'utf-8-validate',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/utf-8-validate
+84 verbose request uri https://registry.npmjs.org/bufferutil
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 11:28:37 AM
+87 verbose etag W/"592e762e-3cee"
+88 verbose lastModified Wed, 31 May 2017 07:52:14 GMT
+89 http request GET https://registry.npmjs.org/bufferutil
+90 verbose request uri https://registry.npmjs.org/utf-8-validate
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 11:28:37 AM
+93 verbose etag W/"592e7a45-3ecb"
+94 verbose lastModified Wed, 31 May 2017 08:09:41 GMT
+95 http request GET https://registry.npmjs.org/utf-8-validate
+96 http 304 https://registry.npmjs.org/bufferutil
+97 verbose headers { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+97 verbose headers   via: '1.1 varnish',
+97 verbose headers   'cache-control': 'max-age=300',
+97 verbose headers   etag: 'W/"592e762e-3cee"',
+97 verbose headers   age: '297',
+97 verbose headers   connection: 'keep-alive',
+97 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+97 verbose headers   'x-cache': 'HIT',
+97 verbose headers   'x-cache-hits': '1',
+97 verbose headers   'x-timer': 'S1496593718.152841,VS0,VE0',
+97 verbose headers   vary: 'Accept-Encoding' }
+98 silly get cb [ 304,
+98 silly get   { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+98 silly get     via: '1.1 varnish',
+98 silly get     'cache-control': 'max-age=300',
+98 silly get     etag: 'W/"592e762e-3cee"',
+98 silly get     age: '297',
+98 silly get     connection: 'keep-alive',
+98 silly get     'x-served-by': 'cache-ord1734-ORD',
+98 silly get     'x-cache': 'HIT',
+98 silly get     'x-cache-hits': '1',
+98 silly get     'x-timer': 'S1496593718.152841,VS0,VE0',
+98 silly get     vary: 'Accept-Encoding' } ]
+99 verbose etag https://registry.npmjs.org/bufferutil from cache
+100 verbose get saving bufferutil to C:\Users\aagam_000\AppData\Roaming\npm-cache\registry.npmjs.org\bufferutil\.cache.json
+101 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+102 silly resolveWithNewModule bufferutil@1.2.1 checking installable status
+103 silly cache add args [ 'bufferutil@1.2.x', null ]
+104 verbose cache add spec bufferutil@1.2.x
+105 silly cache add parsed spec Result {
+105 silly cache add   raw: 'bufferutil@1.2.x',
+105 silly cache add   scope: null,
+105 silly cache add   escapedName: 'bufferutil',
+105 silly cache add   name: 'bufferutil',
+105 silly cache add   rawSpec: '1.2.x',
+105 silly cache add   spec: '>=1.2.0 <1.3.0',
+105 silly cache add   type: 'range' }
+106 silly addNamed bufferutil@>=1.2.0 <1.3.0
+107 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for bufferutil
+108 silly addNameRange { name: 'bufferutil', range: '>=1.2.0 <1.3.0', hasData: false }
+109 silly mapToRegistry name bufferutil
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'bufferutil',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   escapedName: 'bufferutil',
+112 silly mapToRegistry   name: 'bufferutil',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+114 verbose addNameRange registry:https://registry.npmjs.org/bufferutil not in flight; fetching
+115 verbose get https://registry.npmjs.org/bufferutil not expired, no request
+116 silly addNameRange number 2 { name: 'bufferutil', range: '>=1.2.0 <1.3.0', hasData: true }
+117 silly addNameRange versions [ 'bufferutil',
+117 silly addNameRange   [ '1.0.0',
+117 silly addNameRange     '1.0.1',
+117 silly addNameRange     '1.1.0',
+117 silly addNameRange     '1.2.0',
+117 silly addNameRange     '1.2.1',
+117 silly addNameRange     '1.3.0',
+117 silly addNameRange     '2.0.0',
+117 silly addNameRange     '2.0.1',
+117 silly addNameRange     '3.0.0',
+117 silly addNameRange     '3.0.1' ] ]
+118 silly addNamed bufferutil@1.2.1
+119 verbose addNamed "1.2.1" is a plain semver version for bufferutil
+120 silly cache afterAdd bufferutil@1.2.1
+121 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\bufferutil\1.2.1\package\package.json not in flight; writing
+122 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+123 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\bufferutil\1.2.1\package\package.json written
+124 http 304 https://registry.npmjs.org/utf-8-validate
+125 verbose headers { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+125 verbose headers   via: '1.1 varnish',
+125 verbose headers   'cache-control': 'max-age=300',
+125 verbose headers   etag: 'W/"592e7a45-3ecb"',
+125 verbose headers   age: '253',
+125 verbose headers   connection: 'keep-alive',
+125 verbose headers   'x-served-by': 'cache-ord1727-ORD',
+125 verbose headers   'x-cache': 'HIT',
+125 verbose headers   'x-cache-hits': '1',
+125 verbose headers   'x-timer': 'S1496593718.233144,VS0,VE1',
+125 verbose headers   vary: 'Accept-Encoding' }
+126 silly get cb [ 304,
+126 silly get   { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+126 silly get     via: '1.1 varnish',
+126 silly get     'cache-control': 'max-age=300',
+126 silly get     etag: 'W/"592e7a45-3ecb"',
+126 silly get     age: '253',
+126 silly get     connection: 'keep-alive',
+126 silly get     'x-served-by': 'cache-ord1727-ORD',
+126 silly get     'x-cache': 'HIT',
+126 silly get     'x-cache-hits': '1',
+126 silly get     'x-timer': 'S1496593718.233144,VS0,VE1',
+126 silly get     vary: 'Accept-Encoding' } ]
+127 verbose etag https://registry.npmjs.org/utf-8-validate from cache
+128 verbose get saving utf-8-validate to C:\Users\aagam_000\AppData\Roaming\npm-cache\registry.npmjs.org\utf-8-validate\.cache.json
+129 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+130 silly resolveWithNewModule utf-8-validate@1.2.2 checking installable status
+131 silly cache add args [ 'utf-8-validate@1.2.x', null ]
+132 verbose cache add spec utf-8-validate@1.2.x
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'utf-8-validate@1.2.x',
+133 silly cache add   scope: null,
+133 silly cache add   escapedName: 'utf-8-validate',
+133 silly cache add   name: 'utf-8-validate',
+133 silly cache add   rawSpec: '1.2.x',
+133 silly cache add   spec: '>=1.2.0 <1.3.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed utf-8-validate@>=1.2.0 <1.3.0
+135 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for utf-8-validate
+136 silly addNameRange { name: 'utf-8-validate',
+136 silly addNameRange   range: '>=1.2.0 <1.3.0',
+136 silly addNameRange   hasData: false }
+137 silly mapToRegistry name utf-8-validate
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'utf-8-validate',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'utf-8-validate',
+140 silly mapToRegistry   name: 'utf-8-validate',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/utf-8-validate
+142 verbose addNameRange registry:https://registry.npmjs.org/utf-8-validate not in flight; fetching
+143 verbose get https://registry.npmjs.org/utf-8-validate not expired, no request
+144 silly addNameRange number 2 { name: 'utf-8-validate',
+144 silly addNameRange   range: '>=1.2.0 <1.3.0',
+144 silly addNameRange   hasData: true }
+145 silly addNameRange versions [ 'utf-8-validate',
+145 silly addNameRange   [ '1.0.0',
+145 silly addNameRange     '1.0.1',
+145 silly addNameRange     '1.1.0',
+145 silly addNameRange     '1.2.0',
+145 silly addNameRange     '1.2.1',
+145 silly addNameRange     '1.2.2',
+145 silly addNameRange     '2.0.0',
+145 silly addNameRange     '3.0.0',
+145 silly addNameRange     '3.0.1',
+145 silly addNameRange     '3.0.2' ] ]
+146 silly addNamed utf-8-validate@1.2.2
+147 verbose addNamed "1.2.2" is a plain semver version for utf-8-validate
+148 silly cache afterAdd utf-8-validate@1.2.2
+149 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\utf-8-validate\1.2.2\package\package.json not in flight; writing
+150 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+151 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\utf-8-validate\1.2.2\package\package.json written
+152 silly fetchNamedPackageData bindings
+153 silly mapToRegistry name bindings
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry data Result {
+156 silly mapToRegistry   raw: 'bindings',
+156 silly mapToRegistry   scope: null,
+156 silly mapToRegistry   escapedName: 'bindings',
+156 silly mapToRegistry   name: 'bindings',
+156 silly mapToRegistry   rawSpec: '',
+156 silly mapToRegistry   spec: 'latest',
+156 silly mapToRegistry   type: 'tag' }
+157 silly mapToRegistry uri https://registry.npmjs.org/bindings
+158 silly fetchNamedPackageData nan
+159 silly mapToRegistry name nan
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'nan',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   escapedName: 'nan',
+162 silly mapToRegistry   name: 'nan',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/nan
+164 verbose request uri https://registry.npmjs.org/bindings
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 11:28:37 AM
+167 verbose etag W/"59234f99-46bf"
+168 verbose lastModified Mon, 22 May 2017 20:52:41 GMT
+169 http request GET https://registry.npmjs.org/bindings
+170 verbose request uri https://registry.npmjs.org/nan
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 11:28:38 AM
+173 verbose etag W/"592dfb8f-1f9f8"
+174 verbose lastModified Tue, 30 May 2017 23:09:03 GMT
+175 http request GET https://registry.npmjs.org/nan
+176 http 304 https://registry.npmjs.org/bindings
+177 verbose headers { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+177 verbose headers   via: '1.1 varnish',
+177 verbose headers   'cache-control': 'max-age=300',
+177 verbose headers   etag: 'W/"59234f99-46bf"',
+177 verbose headers   age: '107',
+177 verbose headers   connection: 'keep-alive',
+177 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+177 verbose headers   'x-cache': 'HIT',
+177 verbose headers   'x-cache-hits': '1',
+177 verbose headers   'x-timer': 'S1496593718.301045,VS0,VE0',
+177 verbose headers   vary: 'Accept-Encoding' }
+178 silly get cb [ 304,
+178 silly get   { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+178 silly get     via: '1.1 varnish',
+178 silly get     'cache-control': 'max-age=300',
+178 silly get     etag: 'W/"59234f99-46bf"',
+178 silly get     age: '107',
+178 silly get     connection: 'keep-alive',
+178 silly get     'x-served-by': 'cache-ord1734-ORD',
+178 silly get     'x-cache': 'HIT',
+178 silly get     'x-cache-hits': '1',
+178 silly get     'x-timer': 'S1496593718.301045,VS0,VE0',
+178 silly get     vary: 'Accept-Encoding' } ]
+179 verbose etag https://registry.npmjs.org/bindings from cache
+180 verbose get saving bindings to C:\Users\aagam_000\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+181 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+182 silly resolveWithNewModule bindings@1.2.1 checking installable status
+183 silly cache add args [ 'bindings@1.2.x', null ]
+184 verbose cache add spec bindings@1.2.x
+185 silly cache add parsed spec Result {
+185 silly cache add   raw: 'bindings@1.2.x',
+185 silly cache add   scope: null,
+185 silly cache add   escapedName: 'bindings',
+185 silly cache add   name: 'bindings',
+185 silly cache add   rawSpec: '1.2.x',
+185 silly cache add   spec: '>=1.2.0 <1.3.0',
+185 silly cache add   type: 'range' }
+186 silly addNamed bindings@>=1.2.0 <1.3.0
+187 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for bindings
+188 silly addNameRange { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: false }
+189 silly mapToRegistry name bindings
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry data Result {
+192 silly mapToRegistry   raw: 'bindings',
+192 silly mapToRegistry   scope: null,
+192 silly mapToRegistry   escapedName: 'bindings',
+192 silly mapToRegistry   name: 'bindings',
+192 silly mapToRegistry   rawSpec: '',
+192 silly mapToRegistry   spec: 'latest',
+192 silly mapToRegistry   type: 'tag' }
+193 silly mapToRegistry uri https://registry.npmjs.org/bindings
+194 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+195 verbose get https://registry.npmjs.org/bindings not expired, no request
+196 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: true }
+197 silly addNameRange versions [ 'bindings',
+197 silly addNameRange   [ '0.0.1',
+197 silly addNameRange     '0.1.0',
+197 silly addNameRange     '0.1.1',
+197 silly addNameRange     '0.2.0',
+197 silly addNameRange     '0.2.1',
+197 silly addNameRange     '0.2.2',
+197 silly addNameRange     '0.2.3',
+197 silly addNameRange     '0.2.4',
+197 silly addNameRange     '0.3.0',
+197 silly addNameRange     '0.4.0',
+197 silly addNameRange     '1.0.0',
+197 silly addNameRange     '1.1.0',
+197 silly addNameRange     '1.1.1',
+197 silly addNameRange     '1.2.0',
+197 silly addNameRange     '1.2.1' ] ]
+198 silly addNamed bindings@1.2.1
+199 verbose addNamed "1.2.1" is a plain semver version for bindings
+200 silly cache afterAdd bindings@1.2.1
+201 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+202 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+203 http 304 https://registry.npmjs.org/nan
+204 verbose headers { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+204 verbose headers   via: '1.1 varnish',
+204 verbose headers   'cache-control': 'max-age=300',
+204 verbose headers   etag: 'W/"592dfb8f-1f9f8"',
+204 verbose headers   age: '223',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'x-served-by': 'cache-ord1727-ORD',
+204 verbose headers   'x-cache': 'HIT',
+204 verbose headers   'x-cache-hits': '4',
+204 verbose headers   'x-timer': 'S1496593718.340007,VS0,VE0',
+204 verbose headers   vary: 'Accept-Encoding' }
+205 silly get cb [ 304,
+205 silly get   { date: 'Sun, 04 Jun 2017 16:28:38 GMT',
+205 silly get     via: '1.1 varnish',
+205 silly get     'cache-control': 'max-age=300',
+205 silly get     etag: 'W/"592dfb8f-1f9f8"',
+205 silly get     age: '223',
+205 silly get     connection: 'keep-alive',
+205 silly get     'x-served-by': 'cache-ord1727-ORD',
+205 silly get     'x-cache': 'HIT',
+205 silly get     'x-cache-hits': '4',
+205 silly get     'x-timer': 'S1496593718.340007,VS0,VE0',
+205 silly get     vary: 'Accept-Encoding' } ]
+206 verbose etag https://registry.npmjs.org/nan from cache
+207 verbose get saving nan to C:\Users\aagam_000\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+208 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+209 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+210 silly resolveWithNewModule nan@2.6.2 checking installable status
+211 silly cache add args [ 'nan@^2.0.5', null ]
+212 verbose cache add spec nan@^2.0.5
+213 silly cache add parsed spec Result {
+213 silly cache add   raw: 'nan@^2.0.5',
+213 silly cache add   scope: null,
+213 silly cache add   escapedName: 'nan',
+213 silly cache add   name: 'nan',
+213 silly cache add   rawSpec: '^2.0.5',
+213 silly cache add   spec: '>=2.0.5 <3.0.0',
+213 silly cache add   type: 'range' }
+214 silly addNamed nan@>=2.0.5 <3.0.0
+215 verbose addNamed ">=2.0.5 <3.0.0" is a valid semver range for nan
+216 silly addNameRange { name: 'nan', range: '>=2.0.5 <3.0.0', hasData: false }
+217 silly mapToRegistry name nan
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'nan',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   escapedName: 'nan',
+220 silly mapToRegistry   name: 'nan',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri https://registry.npmjs.org/nan
+222 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+223 verbose get https://registry.npmjs.org/nan not expired, no request
+224 silly addNameRange number 2 { name: 'nan', range: '>=2.0.5 <3.0.0', hasData: true }
+225 silly addNameRange versions [ 'nan',
+225 silly addNameRange   [ '0.3.0-wip',
+225 silly addNameRange     '0.3.0-wip2',
+225 silly addNameRange     '0.3.0',
+225 silly addNameRange     '0.3.1',
+225 silly addNameRange     '0.3.2',
+225 silly addNameRange     '0.4.0',
+225 silly addNameRange     '0.4.1',
+225 silly addNameRange     '0.4.2',
+225 silly addNameRange     '0.4.3',
+225 silly addNameRange     '0.4.4',
+225 silly addNameRange     '0.5.0',
+225 silly addNameRange     '0.5.1',
+225 silly addNameRange     '0.5.2',
+225 silly addNameRange     '0.6.0',
+225 silly addNameRange     '0.7.0',
+225 silly addNameRange     '0.7.1',
+225 silly addNameRange     '0.8.0',
+225 silly addNameRange     '1.0.0',
+225 silly addNameRange     '1.1.0',
+225 silly addNameRange     '1.1.1',
+225 silly addNameRange     '1.1.2',
+225 silly addNameRange     '1.2.0',
+225 silly addNameRange     '1.3.0',
+225 silly addNameRange     '1.4.0',
+225 silly addNameRange     '1.4.1',
+225 silly addNameRange     '1.5.0',
+225 silly addNameRange     '1.4.2',
+225 silly addNameRange     '1.4.3',
+225 silly addNameRange     '1.5.1',
+225 silly addNameRange     '1.5.2',
+225 silly addNameRange     '1.6.0',
+225 silly addNameRange     '1.5.3',
+225 silly addNameRange     '1.6.1',
+225 silly addNameRange     '1.6.2',
+225 silly addNameRange     '1.7.0',
+225 silly addNameRange     '1.8.0',
+225 silly addNameRange     '1.8.1',
+225 silly addNameRange     '1.8.2',
+225 silly addNameRange     '1.8.3',
+225 silly addNameRange     '1.8.4',
+225 silly addNameRange     '1.9.0',
+225 silly addNameRange     '2.0.0',
+225 silly addNameRange     '2.0.1',
+225 silly addNameRange     '2.0.2',
+225 silly addNameRange     '2.0.3',
+225 silly addNameRange     '2.0.4',
+225 silly addNameRange     '2.0.5',
+225 silly addNameRange     '2.0.6',
+225 silly addNameRange     '2.0.7',
+225 silly addNameRange     '2.0.8',
+225 silly addNameRange     '2.0.9',
+225 silly addNameRange     '2.1.0',
+225 silly addNameRange     '2.2.0',
+225 silly addNameRange     '2.2.1',
+225 silly addNameRange     '2.3.0',
+225 silly addNameRange     '2.3.1',
+225 silly addNameRange     '2.3.2',
+225 silly addNameRange     '2.3.3',
+225 silly addNameRange     '2.3.4',
+225 silly addNameRange     '2.3.5',
+225 silly addNameRange     '2.4.0',
+225 silly addNameRange     '2.5.0',
+225 silly addNameRange     '2.5.1',
+225 silly addNameRange     '2.6.0',
+225 silly addNameRange     '2.6.1',
+225 silly addNameRange     '2.6.2' ] ]
+226 silly addNamed nan@2.6.2
+227 verbose addNamed "2.6.2" is a plain semver version for nan
+228 silly cache afterAdd nan@2.6.2
+229 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json not in flight; writing
+230 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+231 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json written
+232 silly fetchNamedPackageData nan
+233 silly mapToRegistry name nan
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'nan',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   escapedName: 'nan',
+236 silly mapToRegistry   name: 'nan',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/nan
+238 silly resolveWithNewModule nan@2.4.0 checking installable status
+239 silly cache add args [ 'nan@~2.4.0', null ]
+240 verbose cache add spec nan@~2.4.0
+241 silly cache add parsed spec Result {
+241 silly cache add   raw: 'nan@~2.4.0',
+241 silly cache add   scope: null,
+241 silly cache add   escapedName: 'nan',
+241 silly cache add   name: 'nan',
+241 silly cache add   rawSpec: '~2.4.0',
+241 silly cache add   spec: '>=2.4.0 <2.5.0',
+241 silly cache add   type: 'range' }
+242 silly addNamed nan@>=2.4.0 <2.5.0
+243 verbose addNamed ">=2.4.0 <2.5.0" is a valid semver range for nan
+244 silly addNameRange { name: 'nan', range: '>=2.4.0 <2.5.0', hasData: false }
+245 silly mapToRegistry name nan
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry data Result {
+248 silly mapToRegistry   raw: 'nan',
+248 silly mapToRegistry   scope: null,
+248 silly mapToRegistry   escapedName: 'nan',
+248 silly mapToRegistry   name: 'nan',
+248 silly mapToRegistry   rawSpec: '',
+248 silly mapToRegistry   spec: 'latest',
+248 silly mapToRegistry   type: 'tag' }
+249 silly mapToRegistry uri https://registry.npmjs.org/nan
+250 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+251 verbose get https://registry.npmjs.org/nan not expired, no request
+252 silly addNameRange number 2 { name: 'nan', range: '>=2.4.0 <2.5.0', hasData: true }
+253 silly addNameRange versions [ 'nan',
+253 silly addNameRange   [ '0.3.0-wip',
+253 silly addNameRange     '0.3.0-wip2',
+253 silly addNameRange     '0.3.0',
+253 silly addNameRange     '0.3.1',
+253 silly addNameRange     '0.3.2',
+253 silly addNameRange     '0.4.0',
+253 silly addNameRange     '0.4.1',
+253 silly addNameRange     '0.4.2',
+253 silly addNameRange     '0.4.3',
+253 silly addNameRange     '0.4.4',
+253 silly addNameRange     '0.5.0',
+253 silly addNameRange     '0.5.1',
+253 silly addNameRange     '0.5.2',
+253 silly addNameRange     '0.6.0',
+253 silly addNameRange     '0.7.0',
+253 silly addNameRange     '0.7.1',
+253 silly addNameRange     '0.8.0',
+253 silly addNameRange     '1.0.0',
+253 silly addNameRange     '1.1.0',
+253 silly addNameRange     '1.1.1',
+253 silly addNameRange     '1.1.2',
+253 silly addNameRange     '1.2.0',
+253 silly addNameRange     '1.3.0',
+253 silly addNameRange     '1.4.0',
+253 silly addNameRange     '1.4.1',
+253 silly addNameRange     '1.5.0',
+253 silly addNameRange     '1.4.2',
+253 silly addNameRange     '1.4.3',
+253 silly addNameRange     '1.5.1',
+253 silly addNameRange     '1.5.2',
+253 silly addNameRange     '1.6.0',
+253 silly addNameRange     '1.5.3',
+253 silly addNameRange     '1.6.1',
+253 silly addNameRange     '1.6.2',
+253 silly addNameRange     '1.7.0',
+253 silly addNameRange     '1.8.0',
+253 silly addNameRange     '1.8.1',
+253 silly addNameRange     '1.8.2',
+253 silly addNameRange     '1.8.3',
+253 silly addNameRange     '1.8.4',
+253 silly addNameRange     '1.9.0',
+253 silly addNameRange     '2.0.0',
+253 silly addNameRange     '2.0.1',
+253 silly addNameRange     '2.0.2',
+253 silly addNameRange     '2.0.3',
+253 silly addNameRange     '2.0.4',
+253 silly addNameRange     '2.0.5',
+253 silly addNameRange     '2.0.6',
+253 silly addNameRange     '2.0.7',
+253 silly addNameRange     '2.0.8',
+253 silly addNameRange     '2.0.9',
+253 silly addNameRange     '2.1.0',
+253 silly addNameRange     '2.2.0',
+253 silly addNameRange     '2.2.1',
+253 silly addNameRange     '2.3.0',
+253 silly addNameRange     '2.3.1',
+253 silly addNameRange     '2.3.2',
+253 silly addNameRange     '2.3.3',
+253 silly addNameRange     '2.3.4',
+253 silly addNameRange     '2.3.5',
+253 silly addNameRange     '2.4.0',
+253 silly addNameRange     '2.5.0',
+253 silly addNameRange     '2.5.1',
+253 silly addNameRange     '2.6.0',
+253 silly addNameRange     '2.6.1',
+253 silly addNameRange     '2.6.2' ] ]
+254 silly addNamed nan@2.4.0
+255 verbose addNamed "2.4.0" is a plain semver version for nan
+256 silly cache afterAdd nan@2.4.0
+257 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\nan\2.4.0\package\package.json not in flight; writing
+258 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+259 verbose afterAdd C:\Users\aagam_000\AppData\Roaming\npm-cache\nan\2.4.0\package\package.json written
+260 silly loadAllDepsIntoIdealTree Finishing
+261 silly loadIdealTree Finishing
+262 silly currentTree NodejsStarterApp@0.0.1
+262 silly currentTree +-- accepts@1.2.13
+262 silly currentTree +-- argparse@1.0.9
+262 silly currentTree +-- array-flatten@1.1.1
+262 silly currentTree +-- axios@0.5.4
+262 silly currentTree +-- bl@0.9.5
+262 silly currentTree +-- bluebird@2.11.0
+262 silly currentTree +-- body-parser@1.5.2
+262 silly currentTree | +-- depd@0.4.4
+262 silly currentTree | +-- media-typer@0.2.0
+262 silly currentTree | +-- mime-types@1.0.2
+262 silly currentTree | +-- qs@0.6.6
+262 silly currentTree | `-- type-is@1.3.2
+262 silly currentTree +-- btoa@1.1.2
+262 silly currentTree +-- bytes@1.0.0
+262 silly currentTree +-- cfenv@1.0.4
+262 silly currentTree +-- commist@1.0.0
+262 silly currentTree +-- concat-stream@1.6.0
+262 silly currentTree | `-- readable-stream@2.2.10
+262 silly currentTree +-- content-disposition@0.5.1
+262 silly currentTree +-- content-type@1.0.2
+262 silly currentTree +-- cookie-signature@1.0.6
+262 silly currentTree +-- cookie@0.1.5
+262 silly currentTree +-- core-util-is@1.0.2
+262 silly currentTree +-- debug@2.2.0
+262 silly currentTree +-- depd@1.1.0
+262 silly currentTree +-- destroy@1.0.4
+262 silly currentTree +-- duplexify@3.5.0
+262 silly currentTree | +-- end-of-stream@1.0.0
+262 silly currentTree | +-- once@1.3.3
+262 silly currentTree | `-- readable-stream@2.2.10
+262 silly currentTree +-- ee-first@1.1.1
+262 silly currentTree +-- end-of-stream@1.4.0
+262 silly currentTree +-- es6-promise@2.3.0
+262 silly currentTree +-- escape-html@1.0.3
+262 silly currentTree +-- esprima@2.7.3
+262 silly currentTree +-- etag@1.7.0
+262 silly currentTree +-- events@1.1.1
+262 silly currentTree +-- express@4.13.4
+262 silly currentTree +-- finalhandler@0.4.1
+262 silly currentTree +-- format@0.2.2
+262 silly currentTree +-- forwarded@0.1.0
+262 silly currentTree +-- fresh@0.3.0
+262 silly currentTree +-- help-me@0.1.0
+262 silly currentTree +-- http-errors@1.3.1
+262 silly currentTree +-- ibmiotf@0.2.34
+262 silly currentTree +-- iconv-lite@0.4.4
+262 silly currentTree +-- inherits@2.0.3
+262 silly currentTree +-- ipaddr.js@1.0.5
+262 silly currentTree +-- isarray@1.0.0
+262 silly currentTree +-- js-yaml@3.7.0
+262 silly currentTree +-- leven@1.0.2
+262 silly currentTree +-- loglevel@1.4.0
+262 silly currentTree +-- media-typer@0.3.0
+262 silly currentTree +-- merge-descriptors@1.0.1
+262 silly currentTree +-- methods@1.1.2
+262 silly currentTree +-- mime-db@1.27.0
+262 silly currentTree +-- mime-types@2.1.15
+262 silly currentTree +-- mime@1.3.4
+262 silly currentTree +-- minimist@1.2.0
+262 silly currentTree +-- mqtt-connection@2.1.1
+262 silly currentTree +-- mqtt-packet@3.4.8
+262 silly currentTree +-- mqtt@1.5.0
+262 silly currentTree +-- ms@0.7.1
+262 silly currentTree +-- negotiator@0.5.3
+262 silly currentTree +-- on-finished@2.3.0
+262 silly currentTree +-- once@1.4.0
+262 silly currentTree +-- options@0.0.6
+262 silly currentTree +-- parseurl@1.3.1
+262 silly currentTree +-- path-to-regexp@0.1.7
+262 silly currentTree +-- ports@1.1.0
+262 silly currentTree +-- process-nextick-args@1.0.7
+262 silly currentTree +-- proxy-addr@1.0.10
+262 silly currentTree +-- pump@1.0.2
+262 silly currentTree +-- qs@4.0.0
+262 silly currentTree +-- range-parser@1.0.3
+262 silly currentTree +-- raw-body@1.3.0
+262 silly currentTree +-- readable-stream@1.0.34
+262 silly currentTree | +-- isarray@0.0.1
+262 silly currentTree | `-- string_decoder@0.10.31
+262 silly currentTree +-- reduplexer@1.1.0
+262 silly currentTree +-- safe-buffer@5.1.0
+262 silly currentTree +-- send@0.13.1
+262 silly currentTree +-- serve-static@1.10.3
+262 silly currentTree | `-- send@0.13.2
+262 silly currentTree +-- sprintf-js@1.0.3
+262 silly currentTree +-- statuses@1.2.1
+262 silly currentTree +-- stream-shift@1.0.0
+262 silly currentTree +-- string_decoder@1.0.1
+262 silly currentTree +-- through2@0.6.5
+262 silly currentTree +-- type-is@1.6.15
+262 silly currentTree +-- typedarray@0.0.6
+262 silly currentTree +-- ultron@1.0.2
+262 silly currentTree +-- underscore@1.8.3
+262 silly currentTree +-- unpipe@1.0.0
+262 silly currentTree +-- util-deprecate@1.0.2
+262 silly currentTree +-- utils-merge@1.0.0
+262 silly currentTree +-- vary@1.0.1
+262 silly currentTree +-- websocket-stream@2.3.0
+262 silly currentTree | +-- readable-stream@2.2.10
+262 silly currentTree | `-- through2@2.0.3
+262 silly currentTree +-- wrappy@1.0.2
+262 silly currentTree +-- ws@0.8.1
+262 silly currentTree `-- xtend@4.0.1
+263 silly idealTree NodejsStarterApp@0.0.1
+263 silly idealTree +-- accepts@1.2.13
+263 silly idealTree +-- argparse@1.0.9
+263 silly idealTree +-- array-flatten@1.1.1
+263 silly idealTree +-- axios@0.5.4
+263 silly idealTree +-- bindings@1.2.1
+263 silly idealTree +-- bl@0.9.5
+263 silly idealTree +-- bluebird@2.11.0
+263 silly idealTree +-- body-parser@1.5.2
+263 silly idealTree | +-- depd@0.4.4
+263 silly idealTree | +-- media-typer@0.2.0
+263 silly idealTree | +-- mime-types@1.0.2
+263 silly idealTree | +-- qs@0.6.6
+263 silly idealTree | `-- type-is@1.3.2
+263 silly idealTree +-- btoa@1.1.2
+263 silly idealTree +-- bufferutil@1.2.1
+263 silly idealTree +-- bytes@1.0.0
+263 silly idealTree +-- cfenv@1.0.4
+263 silly idealTree +-- commist@1.0.0
+263 silly idealTree +-- concat-stream@1.6.0
+263 silly idealTree | `-- readable-stream@2.2.10
+263 silly idealTree +-- content-disposition@0.5.1
+263 silly idealTree +-- content-type@1.0.2
+263 silly idealTree +-- cookie-signature@1.0.6
+263 silly idealTree +-- cookie@0.1.5
+263 silly idealTree +-- core-util-is@1.0.2
+263 silly idealTree +-- debug@2.2.0
+263 silly idealTree +-- depd@1.1.0
+263 silly idealTree +-- destroy@1.0.4
+263 silly idealTree +-- duplexify@3.5.0
+263 silly idealTree | +-- end-of-stream@1.0.0
+263 silly idealTree | +-- once@1.3.3
+263 silly idealTree | `-- readable-stream@2.2.10
+263 silly idealTree +-- ee-first@1.1.1
+263 silly idealTree +-- end-of-stream@1.4.0
+263 silly idealTree +-- es6-promise@2.3.0
+263 silly idealTree +-- escape-html@1.0.3
+263 silly idealTree +-- esprima@2.7.3
+263 silly idealTree +-- etag@1.7.0
+263 silly idealTree +-- events@1.1.1
+263 silly idealTree +-- express@4.13.4
+263 silly idealTree +-- finalhandler@0.4.1
+263 silly idealTree +-- format@0.2.2
+263 silly idealTree +-- forwarded@0.1.0
+263 silly idealTree +-- fresh@0.3.0
+263 silly idealTree +-- help-me@0.1.0
+263 silly idealTree +-- http-errors@1.3.1
+263 silly idealTree +-- ibmiotf@0.2.34
+263 silly idealTree +-- iconv-lite@0.4.4
+263 silly idealTree +-- inherits@2.0.3
+263 silly idealTree +-- ipaddr.js@1.0.5
+263 silly idealTree +-- isarray@1.0.0
+263 silly idealTree +-- js-yaml@3.7.0
+263 silly idealTree +-- leven@1.0.2
+263 silly idealTree +-- loglevel@1.4.0
+263 silly idealTree +-- media-typer@0.3.0
+263 silly idealTree +-- merge-descriptors@1.0.1
+263 silly idealTree +-- methods@1.1.2
+263 silly idealTree +-- mime-db@1.27.0
+263 silly idealTree +-- mime-types@2.1.15
+263 silly idealTree +-- mime@1.3.4
+263 silly idealTree +-- minimist@1.2.0
+263 silly idealTree +-- mqtt-connection@2.1.1
+263 silly idealTree +-- mqtt-packet@3.4.8
+263 silly idealTree +-- mqtt@1.5.0
+263 silly idealTree +-- ms@0.7.1
+263 silly idealTree +-- nan@2.6.2
+263 silly idealTree +-- negotiator@0.5.3
+263 silly idealTree +-- on-finished@2.3.0
+263 silly idealTree +-- once@1.4.0
+263 silly idealTree +-- options@0.0.6
+263 silly idealTree +-- parseurl@1.3.1
+263 silly idealTree +-- path-to-regexp@0.1.7
+263 silly idealTree +-- ports@1.1.0
+263 silly idealTree +-- process-nextick-args@1.0.7
+263 silly idealTree +-- proxy-addr@1.0.10
+263 silly idealTree +-- pump@1.0.2
+263 silly idealTree +-- qs@4.0.0
+263 silly idealTree +-- range-parser@1.0.3
+263 silly idealTree +-- raw-body@1.3.0
+263 silly idealTree +-- readable-stream@1.0.34
+263 silly idealTree | +-- isarray@0.0.1
+263 silly idealTree | `-- string_decoder@0.10.31
+263 silly idealTree +-- reduplexer@1.1.0
+263 silly idealTree +-- safe-buffer@5.1.0
+263 silly idealTree +-- send@0.13.1
+263 silly idealTree +-- serve-static@1.10.3
+263 silly idealTree | `-- send@0.13.2
+263 silly idealTree +-- sprintf-js@1.0.3
+263 silly idealTree +-- statuses@1.2.1
+263 silly idealTree +-- stream-shift@1.0.0
+263 silly idealTree +-- string_decoder@1.0.1
+263 silly idealTree +-- through2@0.6.5
+263 silly idealTree +-- type-is@1.6.15
+263 silly idealTree +-- typedarray@0.0.6
+263 silly idealTree +-- ultron@1.0.2
+263 silly idealTree +-- underscore@1.8.3
+263 silly idealTree +-- unpipe@1.0.0
+263 silly idealTree +-- utf-8-validate@1.2.2
+263 silly idealTree | `-- nan@2.4.0
+263 silly idealTree +-- util-deprecate@1.0.2
+263 silly idealTree +-- utils-merge@1.0.0
+263 silly idealTree +-- vary@1.0.1
+263 silly idealTree +-- vcap_services@0.3.4
+263 silly idealTree +-- websocket-stream@2.3.0
+263 silly idealTree | +-- readable-stream@2.2.10
+263 silly idealTree | `-- through2@2.0.3
+263 silly idealTree +-- wrappy@1.0.2
+263 silly idealTree +-- ws@0.8.1
+263 silly idealTree `-- xtend@4.0.1
+264 silly generateActionsToTake Starting
+265 silly install generateActionsToTake
+266 silly generateActionsToTake Finishing
+267 silly diffTrees action count 6
+268 silly diffTrees add bindings@1.2.1
+269 silly diffTrees add nan@2.6.2
+270 silly diffTrees add bufferutil@1.2.1
+271 silly diffTrees add nan@2.4.0
+272 silly diffTrees add utf-8-validate@1.2.2
+273 silly diffTrees add vcap_services@0.3.4
+274 silly decomposeActions action count 48
+275 silly decomposeActions fetch bindings@1.2.1
+276 silly decomposeActions extract bindings@1.2.1
+277 silly decomposeActions test bindings@1.2.1
+278 silly decomposeActions preinstall bindings@1.2.1
+279 silly decomposeActions build bindings@1.2.1
+280 silly decomposeActions install bindings@1.2.1
+281 silly decomposeActions postinstall bindings@1.2.1
+282 silly decomposeActions finalize bindings@1.2.1
+283 silly decomposeActions fetch nan@2.6.2
+284 silly decomposeActions extract nan@2.6.2
+285 silly decomposeActions test nan@2.6.2
+286 silly decomposeActions preinstall nan@2.6.2
+287 silly decomposeActions build nan@2.6.2
+288 silly decomposeActions install nan@2.6.2
+289 silly decomposeActions postinstall nan@2.6.2
+290 silly decomposeActions finalize nan@2.6.2
+291 silly decomposeActions fetch bufferutil@1.2.1
+292 silly decomposeActions extract bufferutil@1.2.1
+293 silly decomposeActions test bufferutil@1.2.1
+294 silly decomposeActions preinstall bufferutil@1.2.1
+295 silly decomposeActions build bufferutil@1.2.1
+296 silly decomposeActions install bufferutil@1.2.1
+297 silly decomposeActions postinstall bufferutil@1.2.1
+298 silly decomposeActions finalize bufferutil@1.2.1
+299 silly decomposeActions fetch nan@2.4.0
+300 silly decomposeActions extract nan@2.4.0
+301 silly decomposeActions test nan@2.4.0
+302 silly decomposeActions preinstall nan@2.4.0
+303 silly decomposeActions build nan@2.4.0
+304 silly decomposeActions install nan@2.4.0
+305 silly decomposeActions postinstall nan@2.4.0
+306 silly decomposeActions finalize nan@2.4.0
+307 silly decomposeActions fetch utf-8-validate@1.2.2
+308 silly decomposeActions extract utf-8-validate@1.2.2
+309 silly decomposeActions test utf-8-validate@1.2.2
+310 silly decomposeActions preinstall utf-8-validate@1.2.2
+311 silly decomposeActions build utf-8-validate@1.2.2
+312 silly decomposeActions install utf-8-validate@1.2.2
+313 silly decomposeActions postinstall utf-8-validate@1.2.2
+314 silly decomposeActions finalize utf-8-validate@1.2.2
+315 silly decomposeActions fetch vcap_services@0.3.4
+316 silly decomposeActions extract vcap_services@0.3.4
+317 silly decomposeActions test vcap_services@0.3.4
+318 silly decomposeActions preinstall vcap_services@0.3.4
+319 silly decomposeActions build vcap_services@0.3.4
+320 silly decomposeActions install vcap_services@0.3.4
+321 silly decomposeActions postinstall vcap_services@0.3.4
+322 silly decomposeActions finalize vcap_services@0.3.4
+323 silly runTopLevelLifecycles Starting
+324 silly executeActions Starting
+325 silly install executeActions
+326 silly doSerial global-install 0
+327 silly doParallel fetch 6
+328 verbose correctMkdir C:\Users\aagam_000\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+329 verbose lock using C:\Users\aagam_000\AppData\Roaming\npm-cache\_locks\staging-2746721d8e36575f.lock for F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging
+330 silly doParallel extract 6
+331 silly extract bindings@1.2.1
+332 silly extract nan@2.6.2
+333 silly extract bufferutil@1.2.1
+334 silly extract nan@2.4.0
+335 silly extract utf-8-validate@1.2.2
+336 silly extract vcap_services@0.3.4
+337 verbose unbuild node_modules\.staging\nan-9e362e69
+338 verbose unbuild node_modules\.staging\bufferutil-f60f113d
+339 verbose unbuild node_modules\.staging\bindings-633e1091
+340 verbose unbuild node_modules\.staging\utf-8-validate-34a0b01c
+341 verbose unbuild node_modules\.staging\vcap_services-47fe2b7b
+342 verbose unbuild node_modules\.staging\nan-6786e636
+343 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69 is being purged from base F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+344 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69
+345 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d is being purged from base F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+346 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d
+347 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091 is being purged from base F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+348 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091
+349 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c is being purged from base F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+350 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c
+351 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b is being purged from base F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+352 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+353 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636 is being purged from base F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+354 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636
+355 verbose tar unpack C:\Users\aagam_000\AppData\Roaming\npm-cache\nan\2.6.2\package.tgz
+356 verbose tar unpacking to F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69
+357 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69 is being purged
+358 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69
+359 verbose tar unpack C:\Users\aagam_000\AppData\Roaming\npm-cache\bufferutil\1.2.1\package.tgz
+360 verbose tar unpacking to F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d
+361 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d is being purged
+362 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d
+363 verbose tar unpack C:\Users\aagam_000\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+364 verbose tar unpacking to F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091
+365 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091 is being purged
+366 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091
+367 verbose tar unpack C:\Users\aagam_000\AppData\Roaming\npm-cache\utf-8-validate\1.2.2\package.tgz
+368 verbose tar unpacking to F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c
+369 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c is being purged
+370 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c
+371 verbose tar unpack C:\Users\aagam_000\AppData\Roaming\npm-cache\vcap_services\0.3.4\package.tgz
+372 verbose tar unpacking to F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+373 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b is being purged
+374 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+375 verbose tar unpack C:\Users\aagam_000\AppData\Roaming\npm-cache\nan\2.4.0\package.tgz
+376 verbose tar unpacking to F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636
+377 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636 is being purged
+378 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636
+379 silly gunzTarPerm modes [ '777', '666' ]
+380 silly gunzTarPerm modes [ '777', '666' ]
+381 silly gunzTarPerm modes [ '777', '666' ]
+382 silly gunzTarPerm modes [ '777', '666' ]
+383 silly gunzTarPerm modes [ '777', '666' ]
+384 silly gunzTarPerm modes [ '777', '666' ]
+385 silly gunzTarPerm extractEntry package.json
+386 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+387 silly gunzTarPerm extractEntry package.json
+388 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+389 silly gunzTarPerm extractEntry package.json
+390 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+391 silly gunzTarPerm extractEntry package.json
+392 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+393 silly gunzTarPerm extractEntry package.json
+394 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+395 silly gunzTarPerm extractEntry package.json
+396 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+397 silly gunzTarPerm extractEntry README.md
+398 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+399 silly gunzTarPerm extractEntry .npmignore
+400 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+401 silly gunzTarPerm extractEntry README.md
+402 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+403 silly gunzTarPerm extractEntry README.md
+404 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+405 silly gunzTarPerm extractEntry bindings.js
+406 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+407 silly gunzTarPerm extractEntry .npmignore
+408 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+409 silly gunzTarPerm extractEntry README.md
+410 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+411 silly gunzTarPerm extractEntry README.md
+412 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+413 silly gunzTarPerm extractEntry LICENSE
+414 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+415 silly gunzTarPerm extractEntry include_dirs.js
+416 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+417 silly gunzTarPerm extractEntry README.md
+418 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+419 silly gunzTarPerm extractEntry include_dirs.js
+420 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+421 silly gunzTarPerm extractEntry fallback.js
+422 silly gunzTarPerm modified mode [ 'fallback.js', 420, 438 ]
+423 silly gunzTarPerm extractEntry index.js
+424 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+425 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+426 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+427 silly gunzTarPerm extractEntry LICENSE.md
+428 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+429 silly gunzTarPerm extractEntry doc/new.md
+430 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+431 silly gunzTarPerm extractEntry index.js
+432 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+433 silly gunzTarPerm extractEntry CONTRIBUTING.md
+434 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+435 silly gunzTarPerm extractEntry fallback.js
+436 silly gunzTarPerm modified mode [ 'fallback.js', 420, 438 ]
+437 silly gunzTarPerm extractEntry index.js
+438 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+439 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+440 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+441 silly gunzTarPerm extractEntry CHANGELOG.md
+442 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+443 silly gunzTarPerm extractEntry LICENSE.md
+444 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+445 silly gunzTarPerm extractEntry doc/asyncworker.md
+446 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+447 silly gunzTarPerm extractEntry doc/node_misc.md
+448 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+449 silly gunzTarPerm extractEntry .travis.yml
+450 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+451 silly gunzTarPerm extractEntry binding.gyp
+452 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+453 silly gunzTarPerm extractEntry deploy.sh
+454 silly gunzTarPerm modified mode [ 'deploy.sh', 420, 438 ]
+455 silly gunzTarPerm extractEntry binding.gyp
+456 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+457 silly gunzTarPerm extractEntry src/validation.cc
+458 silly gunzTarPerm modified mode [ 'src/validation.cc', 420, 438 ]
+459 silly gunzTarPerm extractEntry doc/callback.md
+460 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+461 silly gunzTarPerm extractEntry doc/converters.md
+462 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+463 silly gunzTarPerm extractEntry doc/asyncworker.md
+464 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+465 silly gunzTarPerm extractEntry doc/callback.md
+466 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+467 silly gunzTarPerm extractEntry src/bufferutil.cc
+468 silly gunzTarPerm modified mode [ 'src/bufferutil.cc', 420, 438 ]
+469 silly gunzTarPerm extractEntry doc/errors.md
+470 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+471 silly gunzTarPerm extractEntry doc/json.md
+472 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+473 silly gunzTarPerm extractEntry doc/converters.md
+474 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+475 silly gunzTarPerm extractEntry doc/errors.md
+476 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+477 silly gunzTarPerm extractEntry doc/maybe_types.md
+478 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+479 silly gunzTarPerm extractEntry doc/methods.md
+480 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+481 silly gunzTarPerm extractEntry doc/maybe_types.md
+482 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+483 silly gunzTarPerm extractEntry doc/methods.md
+484 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+485 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091\node_modules is being purged
+486 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091\node_modules
+487 silly gunzTarPerm extractEntry doc/buffers.md
+488 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+489 silly gunzTarPerm extractEntry doc/node_misc.md
+490 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+491 silly gunzTarPerm extractEntry doc/new.md
+492 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+493 silly gunzTarPerm extractEntry doc/buffers.md
+494 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+495 silly gunzTarPerm extractEntry doc/object_wrappers.md
+496 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+497 silly gunzTarPerm extractEntry doc/persistent.md
+498 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+499 silly gunzTarPerm extractEntry doc/object_wrappers.md
+500 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+501 silly gunzTarPerm extractEntry doc/persistent.md
+502 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+503 silly gunzTarPerm extractEntry doc/scopes.md
+504 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+505 silly gunzTarPerm extractEntry doc/script.md
+506 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+507 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b\node_modules is being purged
+508 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b\node_modules
+509 silly gunzTarPerm extractEntry doc/scopes.md
+510 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+511 silly gunzTarPerm extractEntry doc/string_bytes.md
+512 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+513 silly gunzTarPerm extractEntry doc/v8_internals.md
+514 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+515 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c\node_modules is being purged
+516 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c\node_modules
+517 silly gunzTarPerm extractEntry doc/script.md
+518 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+519 silly gunzTarPerm extractEntry doc/string_bytes.md
+520 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+521 silly gunzTarPerm extractEntry doc/v8_misc.md
+522 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+523 silly gunzTarPerm extractEntry nan.h
+524 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+525 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d\node_modules is being purged
+526 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d\node_modules
+527 silly gunzTarPerm extractEntry doc/v8_internals.md
+528 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+529 silly gunzTarPerm extractEntry doc/v8_misc.md
+530 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+531 silly gunzTarPerm extractEntry nan_callbacks.h
+532 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+533 silly gunzTarPerm extractEntry nan.h
+534 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+535 silly gunzTarPerm extractEntry nan_callbacks.h
+536 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+537 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+538 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+539 silly gunzTarPerm extractEntry nan_converters.h
+540 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+541 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+542 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+543 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+544 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+545 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+546 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+547 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+548 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+549 silly gunzTarPerm extractEntry nan_converters.h
+550 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+551 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+552 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+553 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+554 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+555 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+556 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+557 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+558 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+559 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+560 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+561 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+562 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+563 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+564 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+565 silly gunzTarPerm extractEntry nan_json.h
+566 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+567 silly gunzTarPerm extractEntry nan_new.h
+568 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+569 silly gunzTarPerm extractEntry nan_object_wrap.h
+570 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+571 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+572 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+573 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+574 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+575 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+576 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+577 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+578 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+579 silly gunzTarPerm extractEntry nan_new.h
+580 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+581 silly gunzTarPerm extractEntry nan_string_bytes.h
+582 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+583 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+584 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+585 silly gunzTarPerm extractEntry nan_object_wrap.h
+586 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+587 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+588 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+589 silly gunzTarPerm extractEntry nan_weak.h
+590 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+591 silly gunzTarPerm extractEntry tools/package.json
+592 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+593 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+594 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+595 silly gunzTarPerm extractEntry nan_private.h
+596 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+597 silly gunzTarPerm extractEntry tools/README.md
+598 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+599 silly gunzTarPerm extractEntry tools/1to2.js
+600 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+601 silly gunzTarPerm extractEntry nan_string_bytes.h
+602 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+603 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+604 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+605 silly gunzTarPerm extractEntry nan_weak.h
+606 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+607 silly gunzTarPerm extractEntry CHANGELOG.md
+608 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+609 silly gunzTarPerm extractEntry tools/package.json
+610 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+611 silly gunzTarPerm extractEntry tools/README.md
+612 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+613 silly gunzTarPerm extractEntry tools/1to2.js
+614 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+615 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636\node_modules is being purged
+616 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636\node_modules
+617 silly gentlyRm F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69\node_modules is being purged
+618 verbose gentlyRm don't care about contents; nuking F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69\node_modules
+619 silly doParallel preinstall 6
+620 silly preinstall bindings@1.2.1 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091
+621 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+622 silly preinstall nan@2.6.2 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69
+623 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+624 silly preinstall bufferutil@1.2.1 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d
+625 info lifecycle bufferutil@1.2.1~preinstall: bufferutil@1.2.1
+626 silly preinstall nan@2.4.0 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636
+627 info lifecycle nan@2.4.0~preinstall: nan@2.4.0
+628 silly preinstall utf-8-validate@1.2.2 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c
+629 info lifecycle utf-8-validate@1.2.2~preinstall: utf-8-validate@1.2.2
+630 silly preinstall vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+631 info lifecycle vcap_services@0.3.4~preinstall: vcap_services@0.3.4
+632 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+633 silly lifecycle nan@2.6.2~preinstall: no script for preinstall, continuing
+634 silly lifecycle bufferutil@1.2.1~preinstall: no script for preinstall, continuing
+635 silly lifecycle nan@2.4.0~preinstall: no script for preinstall, continuing
+636 silly lifecycle utf-8-validate@1.2.2~preinstall: no script for preinstall, continuing
+637 silly lifecycle vcap_services@0.3.4~preinstall: no script for preinstall, continuing
+638 silly doReverseSerial remove 0
+639 silly doSerial move 0
+640 silly doSerial finalize 6
+641 silly finalize F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\bindings
+642 silly finalize F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\nan
+643 silly finalize F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\bufferutil
+644 silly finalize F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate\node_modules\nan
+645 silly finalize F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate
+646 silly finalize F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\vcap_services
+647 silly doSerial build 6
+648 silly build bindings@1.2.1
+649 info linkStuff bindings@1.2.1
+650 silly linkStuff bindings@1.2.1 has F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules as its parent node_modules
+651 verbose linkBins bindings@1.2.1
+652 verbose linkMans bindings@1.2.1
+653 silly build nan@2.6.2
+654 info linkStuff nan@2.6.2
+655 silly linkStuff nan@2.6.2 has F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules as its parent node_modules
+656 verbose linkBins nan@2.6.2
+657 verbose linkMans nan@2.6.2
+658 silly build bufferutil@1.2.1
+659 info linkStuff bufferutil@1.2.1
+660 silly linkStuff bufferutil@1.2.1 has F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules as its parent node_modules
+661 verbose linkBins bufferutil@1.2.1
+662 verbose linkMans bufferutil@1.2.1
+663 silly build nan@2.4.0
+664 info linkStuff nan@2.4.0
+665 silly linkStuff nan@2.4.0 has F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate\node_modules as its parent node_modules
+666 verbose linkBins nan@2.4.0
+667 verbose linkMans nan@2.4.0
+668 silly build utf-8-validate@1.2.2
+669 info linkStuff utf-8-validate@1.2.2
+670 silly linkStuff utf-8-validate@1.2.2 has F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules as its parent node_modules
+671 verbose linkBins utf-8-validate@1.2.2
+672 verbose linkMans utf-8-validate@1.2.2
+673 silly build vcap_services@0.3.4
+674 info linkStuff vcap_services@0.3.4
+675 silly linkStuff vcap_services@0.3.4 has F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules as its parent node_modules
+676 verbose linkBins vcap_services@0.3.4
+677 verbose linkMans vcap_services@0.3.4
+678 silly doSerial global-link 0
+679 silly doParallel update-linked 0
+680 silly doSerial install 6
+681 silly install bindings@1.2.1 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bindings-633e1091
+682 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+683 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+684 silly install nan@2.6.2 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-9e362e69
+685 info lifecycle nan@2.6.2~install: nan@2.6.2
+686 silly lifecycle nan@2.6.2~install: no script for install, continuing
+687 silly install bufferutil@1.2.1 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\bufferutil-f60f113d
+688 info lifecycle bufferutil@1.2.1~install: bufferutil@1.2.1
+689 verbose lifecycle bufferutil@1.2.1~install: unsafe-perm in lifecycle true
+690 verbose lifecycle bufferutil@1.2.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\bufferutil\node_modules\.bin;F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\CodeBlocks\MinGW\bin;F:\NWU Coursework\EECS 495 Digital Forensics\Tools\UnxUtils\usr\local\wbin;F:\Git\cmd;C:\Python27;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\CodeBlocks\MinGW\bin;F:\NWU Coursework\EECS 495 Digital Forensics\Tools\UnxUtils\usr\local\wbin;F:\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Python27;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Java\jdk1.7.0\bin;C:\oraclexe\app\oracle\product\10.2.0\server\BIN;C:\Users\aagam_000\AppData\Roaming\npm;F:\Heroku\bin;C:\Python27\Scripts;
+691 verbose lifecycle bufferutil@1.2.1~install: CWD: F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\bufferutil
+692 silly lifecycle bufferutil@1.2.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+693 info lifecycle bufferutil@1.2.1~install: Failed to exec install script
+694 silly install nan@2.4.0 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636
+695 info lifecycle nan@2.4.0~install: nan@2.4.0
+696 silly lifecycle bufferutil@1.2.1~install: Returned: code: -4058  signal: null
+697 info lifecycle bufferutil@1.2.1~install: Failed to exec install script
+698 silly install nan@2.4.0 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\nan-6786e636
+699 info lifecycle nan@2.4.0~install: nan@2.4.0
+700 silly lifecycle nan@2.4.0~install: no script for install, continuing
+701 silly lifecycle nan@2.4.0~install: no script for install, continuing
+702 silly install utf-8-validate@1.2.2 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c
+703 info lifecycle utf-8-validate@1.2.2~install: utf-8-validate@1.2.2
+704 silly install utf-8-validate@1.2.2 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\utf-8-validate-34a0b01c
+705 info lifecycle utf-8-validate@1.2.2~install: utf-8-validate@1.2.2
+706 verbose lifecycle utf-8-validate@1.2.2~install: unsafe-perm in lifecycle true
+707 verbose lifecycle utf-8-validate@1.2.2~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate\node_modules\.bin;F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\CodeBlocks\MinGW\bin;F:\NWU Coursework\EECS 495 Digital Forensics\Tools\UnxUtils\usr\local\wbin;F:\Git\cmd;C:\Python27;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\CodeBlocks\MinGW\bin;F:\NWU Coursework\EECS 495 Digital Forensics\Tools\UnxUtils\usr\local\wbin;F:\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Python27;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Java\jdk1.7.0\bin;C:\oraclexe\app\oracle\product\10.2.0\server\BIN;C:\Users\aagam_000\AppData\Roaming\npm;F:\Heroku\bin;C:\Python27\Scripts;
+708 verbose lifecycle utf-8-validate@1.2.2~install: CWD: F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate
+709 silly lifecycle utf-8-validate@1.2.2~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+710 info lifecycle utf-8-validate@1.2.2~install: Failed to exec install script
+711 silly install vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+712 info lifecycle vcap_services@0.3.4~install: vcap_services@0.3.4
+713 silly lifecycle utf-8-validate@1.2.2~install: Returned: code: -4058  signal: null
+714 info lifecycle utf-8-validate@1.2.2~install: Failed to exec install script
+715 silly install vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+716 info lifecycle vcap_services@0.3.4~install: vcap_services@0.3.4
+717 verbose lifecycle utf-8-validate@1.2.2~install: unsafe-perm in lifecycle true
+718 verbose lifecycle utf-8-validate@1.2.2~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate\node_modules\.bin;F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\CodeBlocks\MinGW\bin;F:\NWU Coursework\EECS 495 Digital Forensics\Tools\UnxUtils\usr\local\wbin;F:\Git\cmd;C:\Python27;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\CodeBlocks\MinGW\bin;F:\NWU Coursework\EECS 495 Digital Forensics\Tools\UnxUtils\usr\local\wbin;F:\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Python27;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Java\jdk1.7.0\bin;C:\oraclexe\app\oracle\product\10.2.0\server\BIN;C:\Users\aagam_000\AppData\Roaming\npm;F:\Heroku\bin;C:\Python27\Scripts;
+719 verbose lifecycle utf-8-validate@1.2.2~install: CWD: F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\utf-8-validate
+720 silly lifecycle utf-8-validate@1.2.2~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+721 info lifecycle utf-8-validate@1.2.2~install: Failed to exec install script
+722 silly install vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+723 info lifecycle vcap_services@0.3.4~install: vcap_services@0.3.4
+724 silly lifecycle utf-8-validate@1.2.2~install: Returned: code: -4058  signal: null
+725 info lifecycle utf-8-validate@1.2.2~install: Failed to exec install script
+726 silly install vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+727 info lifecycle vcap_services@0.3.4~install: vcap_services@0.3.4
+728 silly lifecycle vcap_services@0.3.4~install: no script for install, continuing
+729 silly lifecycle vcap_services@0.3.4~install: no script for install, continuing
+730 silly lifecycle vcap_services@0.3.4~install: no script for install, continuing
+731 silly lifecycle vcap_services@0.3.4~install: no script for install, continuing
+732 silly doSerial postinstall 6
+733 silly postinstall vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+734 info lifecycle vcap_services@0.3.4~postinstall: vcap_services@0.3.4
+735 silly doSerial postinstall 6
+736 silly postinstall vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+737 info lifecycle vcap_services@0.3.4~postinstall: vcap_services@0.3.4
+738 silly doSerial postinstall 6
+739 silly postinstall vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+740 info lifecycle vcap_services@0.3.4~postinstall: vcap_services@0.3.4
+741 silly doSerial postinstall 6
+742 silly postinstall vcap_services@0.3.4 F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging\vcap_services-47fe2b7b
+743 info lifecycle vcap_services@0.3.4~postinstall: vcap_services@0.3.4
+744 silly lifecycle vcap_services@0.3.4~postinstall: no script for postinstall, continuing
+745 silly lifecycle vcap_services@0.3.4~postinstall: no script for postinstall, continuing
+746 silly lifecycle vcap_services@0.3.4~postinstall: no script for postinstall, continuing
+747 silly lifecycle vcap_services@0.3.4~postinstall: no script for postinstall, continuing
+748 verbose unlock done using C:\Users\aagam_000\AppData\Roaming\npm-cache\_locks\staging-2746721d8e36575f.lock for F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging
+749 silly executeActions Finishing
+750 silly rollbackFailedOptional Starting
+751 verbose unlock done using C:\Users\aagam_000\AppData\Roaming\npm-cache\_locks\staging-2746721d8e36575f.lock for F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging
+752 silly executeActions Finishing
+753 silly rollbackFailedOptional Starting
+754 verbose unlock done using C:\Users\aagam_000\AppData\Roaming\npm-cache\_locks\staging-2746721d8e36575f.lock for F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging
+755 silly executeActions Finishing
+756 silly rollbackFailedOptional Starting
+757 verbose unlock done using C:\Users\aagam_000\AppData\Roaming\npm-cache\_locks\staging-2746721d8e36575f.lock for F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial\node_modules\.staging
+758 silly executeActions Finishing
+759 silly rollbackFailedOptional Starting
+760 silly rollbackFailedOptional Finishing
+761 silly runTopLevelLifecycles Finishing
+762 silly install saveToDependencies
+763 silly rollbackFailedOptional Finishing
+764 silly runTopLevelLifecycles Finishing
+765 silly install saveToDependencies
+766 silly rollbackFailedOptional Finishing
+767 silly runTopLevelLifecycles Finishing
+768 silly install saveToDependencies
+769 silly rollbackFailedOptional Finishing
+770 silly runTopLevelLifecycles Finishing
+771 silly install saveToDependencies
+772 verbose saving [ { name: 'vcap_services', spec: '^0.3.4', save: 'dependencies' } ]
+773 verbose saving [ { name: 'vcap_services', spec: '^0.3.4', save: 'dependencies' } ]
+774 verbose saving [ { name: 'vcap_services', spec: '^0.3.4', save: 'dependencies' } ]
+775 verbose saving [ { name: 'vcap_services', spec: '^0.3.4', save: 'dependencies' } ]
+776 silly install printInstalled
+777 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 (node_modules\bufferutil):
+778 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 install: `node-gyp rebuild`
+778 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\WINDOWS\system32\cmd.exe;e: ENOENT
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+779 verbose optional Failed at the bufferutil@1.2.1 install script 'node-gyp rebuild'.
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the bufferutil package,
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs bufferutil
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls bufferutil
+779 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+780 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 (node_modules\bufferutil):
+781 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 install: `node-gyp rebuild`
+781 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+782 verbose optional Failed at the bufferutil@1.2.1 install script 'node-gyp rebuild'.
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the bufferutil package,
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs bufferutil
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls bufferutil
+782 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+783 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+784 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+784 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\WINDOWS\system32\cmd.exe;e: ENOENT
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+785 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+785 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+786 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+787 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+787 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+788 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+788 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+789 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+790 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+790 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\WINDOWS\system32\cmd.exe;e: ENOENT
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+791 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+791 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+792 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+793 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+793 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+794 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+794 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+795 verbose exit [ 0, true ]
+796 silly install printInstalled
+797 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 (node_modules\bufferutil):
+798 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 install: `node-gyp rebuild`
+798 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\WINDOWS\system32\cmd.exe;e: ENOENT
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+799 verbose optional Failed at the bufferutil@1.2.1 install script 'node-gyp rebuild'.
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the bufferutil package,
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs bufferutil
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls bufferutil
+799 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+800 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 (node_modules\bufferutil):
+801 warn optional SKIPPING OPTIONAL DEPENDENCY: bufferutil@1.2.1 install: `node-gyp rebuild`
+801 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+802 verbose optional Failed at the bufferutil@1.2.1 install script 'node-gyp rebuild'.
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the bufferutil package,
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs bufferutil
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls bufferutil
+802 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+803 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+804 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+804 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\WINDOWS\system32\cmd.exe;e: ENOENT
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+805 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+805 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+806 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+807 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+807 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+808 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+808 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+809 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+810 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+810 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\WINDOWS\system32\cmd.exe;e: ENOENT
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+811 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+811 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+812 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 (node_modules\utf-8-validate):
+813 warn optional SKIPPING OPTIONAL DEPENDENCY: utf-8-validate@1.2.2 install: `node-gyp rebuild`
+813 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+814 verbose optional Failed at the utf-8-validate@1.2.2 install script 'node-gyp rebuild'.
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the utf-8-validate package,
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs utf-8-validate
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls utf-8-validate
+814 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+815 verbose stack Error: Callback called more than once.
+815 verbose stack     at errorHandler (C:\Program Files\nodejs\node_modules\npm\lib\utils\error-handler.js:112:16)
+815 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:312:7
+815 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+815 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+815 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\and-ignore-errors.js:7:15
+815 verbose stack     at Function.ls.fromTree (C:\Program Files\nodejs\node_modules\npm\lib\ls.js:112:3)
+815 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:707:8
+815 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+815 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:160:5
+815 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+816 verbose cwd F:\NU Coursework\EECS 495 Internet of Things\FinalProject\home_auto\iot-nodejs-tutorial
+817 error Windows_NT 6.2.9200
+818 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "vcap_services" "--save"
+819 error node v6.9.1
+820 error npm  v3.10.8
+821 error Callback called more than once.
+822 error If you need help, you may report this error at:
+822 error     <https://github.com/npm/npm/issues>
+823 verbose exit [ 1, true ]
